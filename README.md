@@ -15,6 +15,12 @@ Generate beautiful, icon-rich file trees for your README — instantly.
 
 ## Installation
 
+**macOS (Homebrew) — recommended**
+```bash
+brew tap abidit/abitree && brew install abitree
+```
+
+**pip (macOS / Linux / Windows)**
 ```bash
 pip install abitree
 ```
@@ -66,7 +72,7 @@ abitree --no-icons
 
 ## Author
 
-Built by [Abidit Shrestha](https://github.com/abiditshrestha)
+Built by [Abidit Shrestha](https://github.com/Abidit)
 
 ## License
 
