@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abitree"
+version = "0.1.0"
+description = "Generate beautiful file trees for your README"
+authors = [{ name = "Abidit Shrestha" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["cli", "tree", "readme", "file-tree", "developer-tools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+]
+
+[project.scripts]
+abitree = "abitree.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["abitree*"]
